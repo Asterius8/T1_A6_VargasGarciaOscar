@@ -98,7 +98,7 @@ class VentanaPrincipal extends JFrame implements ActionListener{
 						
 						cajaMillas.setText( String.valueOf( cd.millas( Double.parseDouble( cajaKm.getText() ) )  ) );
 						cajaPies.setText( String.valueOf( cd.pies( Double.parseDouble( cajaKm.getText() ) ) ) );
-						cajaPulgadas.setText( String.valueOf( cd.millas( Double.parseDouble( cajaKm.getText() ) ) ) );
+						cajaPulgadas.setText( String.valueOf( cd.pulgadas( Double.parseDouble( cajaKm.getText() ) ) ) );
 						
 					}else {
 						
